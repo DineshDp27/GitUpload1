@@ -6,6 +6,14 @@ public class GitImport {
 		System.out.println("Dinesh");
 
 	}
+	private void empAdd() {
+		System.out.println("Chennai");
+	}
+	
+	private void empMobNum() {
+		System.out.println("1234566789");
+
+	}
 	
 	
 	
@@ -14,6 +22,7 @@ public class GitImport {
 	
 		GitImport g = new GitImport();
 		g.empName();
+		g.empAdd();
 	}
 	
 	
