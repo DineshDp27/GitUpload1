@@ -4,18 +4,9 @@ public class GitImport {
 	
 	private void empName() {
 		System.out.println("Dinesh");
-
 	}
-	private void empAdd() {
-		System.out.println("Chennai");
-	}
-	
-	private void empMobNum() {
-		System.out.println("1234566789");
-
-	}
-	private void empDob() {
-		System.out.println("27th March");
+	private void empAddress() {
+System.out.println("Chennai");
 	}
 	
 	
@@ -25,9 +16,8 @@ public class GitImport {
 	
 		GitImport g = new GitImport();
 		g.empName();
-		g.empAdd();
-		g.empMobNum();
-		g.empDob();
+		g.empAddress();
+		
 	}
 	
 	
