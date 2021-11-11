@@ -14,6 +14,9 @@ public class GitImport {
 		System.out.println("1234566789");
 
 	}
+	private void empDob() {
+		System.out.println("27th March");
+	}
 	
 	
 	
@@ -23,6 +26,8 @@ public class GitImport {
 		GitImport g = new GitImport();
 		g.empName();
 		g.empAdd();
+		g.empMobNum();
+		g.empDob();
 	}
 	
 	
